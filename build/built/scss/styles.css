@@ -1,3 +1,44 @@
 nav {
   background-color: #ff4500
 }
+form {
+  background: #e6dcdc;
+  border-radius: 5%
+}
+.main-form {
+  margin-top: 100px
+}
+.main-form .search_but {
+  background-color: #ff4500
+}
+.works_but {
+  background-color: #e6dcdc
+}
+.steps-title {
+  text-align: center;
+  color: #ff4500
+}
+.steps {
+  text-align: center
+}
+.ap_search {
+  background-color: #ff0;
+  text-align: center
+}
+.ap_search .app_search_img {
+  border-radius: 50%
+}
+.ap_around {
+  background-color: #00f;
+  text-align: center
+}
+.ap_around .app_search_img {
+  border-radius: 50%
+}
+.ap_convenient {
+  background-color: green;
+  text-align: center
+}
+.ap_convenient .app_search_img {
+  border-radius: 50%
+}

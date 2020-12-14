@@ -1,5 +1,59 @@
 $main-color: orangered;
+$transparent-color:  rgb(230, 220, 220);
 
 nav {
   background-color: $main-color;
+}
+
+form {
+  background: $transparent-color;
+  border-radius: 5%;
+}
+
+.main-form {
+  margin-top: 100px;
+
+  .search_but {
+    background-color: $main-color;
+  }
+}
+
+.works_but {
+  background-color: $transparent-color;
+}
+
+.steps-title {
+  text-align: center;
+  color: $main-color;
+}
+
+.steps {
+  text-align: center;
+}
+
+.ap_search {
+  background-color: yellow;
+  text-align: center;
+
+  .app_search_img {
+    border-radius: 50%;
+  }
+}
+
+.ap_around {
+  background-color: blue;
+  text-align: center;
+
+  .app_search_img {
+    border-radius: 50%;
+  }
+}
+
+.ap_convenient {
+  background-color: green;
+  text-align: center;
+
+  .app_search_img {
+    border-radius: 50%;
+  }
 }
