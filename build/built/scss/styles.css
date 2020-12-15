@@ -1,18 +1,43 @@
 nav {
-  background-color: #ff4500
+  background-color: #ff4500;
+  height: 120px
+}
+.form-title {
+  text-align: center
 }
 form {
   background: #e6dcdc;
   border-radius: 5%
 }
 .main-form {
-  margin-top: 100px
+  padding-top: 100px;
+  background-color: pink
+}
+.main-form .search_txt {
+  height: 40px
 }
 .main-form .search_but {
-  background-color: #ff4500
+  background-color: #ff4500;
+  height: 40px
+}
+@media only screen and (min-width:768px) {
+  .main-form form {
+    margin-right: 30%;
+    margin-left: 30%
+  }
+  .main-form form .search_txt {
+    width: 80%
+  }
+  .main-form form .search_but {
+    width: 20%;
+    background-color: #2fbceb
+  }
 }
 .works_but {
   background-color: #e6dcdc
+}
+.how_but {
+  text-align: center
 }
 .steps-title {
   text-align: center;
@@ -41,4 +66,29 @@ form {
 }
 .ap_convenient .app_search_img {
   border-radius: 50%
+}
+footer .footer-links {
+  font-size: 10px;
+  margin-right: 10%;
+  margin-left: 10%
+}
+footer .foot {
+  text-align: center;
+  width: 25%
+}
+footer .sub-form {
+  margin-left: 20%
+}
+footer .foot-head {
+  font-size: 15px
+}
+footer .foot-text-bar {
+  height: 20%
+}
+footer .foot-but {
+  height: 20%;
+  background-color: gray
+}
+footer .foot-par {
+  font-size: 10px
 }

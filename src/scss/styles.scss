@@ -3,6 +3,11 @@ $transparent-color:  rgb(230, 220, 220);
 
 nav {
   background-color: $main-color;
+  height: 120px;
+}
+
+.form-title {
+  text-align: center;
 }
 
 form {
@@ -11,15 +16,43 @@ form {
 }
 
 .main-form {
-  margin-top: 100px;
+  padding-top: 100px;
+  background-color: pink;
+
+  .search_txt {
+    height: 40px;
+  }
 
   .search_but {
     background-color: $main-color;
+    height: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .main-form {
+    form {
+      margin-right: 30%;
+      margin-left: 30%;
+
+      .search_txt {
+        width: 80%;
+      }
+
+      .search_but {
+        width: 20%;
+        background-color: rgb(47, 188, 235);
+      }
+    }
   }
 }
 
 .works_but {
   background-color: $transparent-color;
+}
+
+.how_but {
+  text-align: center;
 }
 
 .steps-title {
@@ -55,5 +88,39 @@ form {
 
   .app_search_img {
     border-radius: 50%;
+  }
+}
+
+footer {
+  .footer-links {
+    font-size: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .foot {
+    text-align: center;
+    width: 25%;
+  }
+
+  .sub-form {
+    margin-left: 20%;
+  }
+
+  .foot-head {
+    font-size: 15px;
+  }
+
+  .foot-text-bar {
+    height: 20%;
+  }
+
+  .foot-but {
+    height: 20%;
+    background-color: grey;
+  }
+
+  .foot-par {
+    font-size: 10px;
   }
 }
