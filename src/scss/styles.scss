@@ -10,7 +10,7 @@ nav {
   text-align: center;
 }
 
-.form-index {
+form {
   background: $transparent-color;
   border-radius: 10%;
   margin-right: 4%;
@@ -18,8 +18,7 @@ nav {
 }
 
 .form-class {
-  margin-right: 0;
-  margin-left: 0;
+  text-align: center;
 }
 
 .main-form {
@@ -38,12 +37,14 @@ nav {
 
   .result-search {
     background-color: blue;
-    height: 20px;
+    height: 25px;
+    margin-top: 32px;
   }
 
   .result-clear {
     background-color: orange;
-    height: 20px;
+    height: 25px;
+    margin-top: 32px;
   }
 }
 
@@ -121,6 +122,10 @@ nav {
     padding-top: 5%;
     width: 30%;
     margin-left: 15%;
+  }
+
+  .flings {
+    width: 30%;
   }
 }
 

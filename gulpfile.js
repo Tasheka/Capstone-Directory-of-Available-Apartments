@@ -11,7 +11,7 @@ const purgecss = require('gulp-purgecss');
 gulp.task('styles', function (done) {
   gulp.src('src/**/*.css')
     .pipe(purgecss({
-      content: ['src/**/*.html', 'index.html']
+      content: ['src/**/*.html', 'index.html', 'results.html', 'details.html']
     }))
     .pipe(cleancss({
       format: 'beautify',

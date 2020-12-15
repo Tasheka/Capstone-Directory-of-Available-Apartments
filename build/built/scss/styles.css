@@ -5,11 +5,14 @@ nav {
 .form-title {
   text-align: center
 }
-.form-index {
+form {
   background: #e6dcdc;
   border-radius: 10%;
   margin-right: 4%;
   margin-left: 4%
+}
+.form-class {
+  text-align: center
 }
 .main-form {
   padding-top: 100px;
@@ -22,6 +25,19 @@ nav {
 .main-form .search_but {
   background-color: #ff4500;
   height: 40px
+}
+.main-form .result-search {
+  background-color: #00f;
+  height: 25px;
+  margin-top: 32px
+}
+.main-form .result-clear {
+  background-color: orange;
+  height: 25px;
+  margin-top: 32px
+}
+.result {
+  text-align: center
 }
 @media only screen and (min-width:768px) {
   .tab-bar {
@@ -75,6 +91,9 @@ nav {
     padding-top: 5%;
     width: 30%;
     margin-left: 15%
+  }
+  .flings {
+    width: 30%
   }
 }
 .works_but {
