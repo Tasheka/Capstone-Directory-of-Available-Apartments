@@ -10,11 +10,16 @@ nav {
   text-align: center;
 }
 
-form {
+.form-index {
   background: $transparent-color;
   border-radius: 10%;
   margin-right: 4%;
   margin-left: 4%;
+}
+
+.form-class {
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .main-form {
@@ -30,6 +35,20 @@ form {
     background-color: $main-color;
     height: 40px;
   }
+
+  .result-search {
+    background-color: blue;
+    height: 20px;
+  }
+
+  .result-clear {
+    background-color: orange;
+    height: 20px;
+  }
+}
+
+.result {
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
