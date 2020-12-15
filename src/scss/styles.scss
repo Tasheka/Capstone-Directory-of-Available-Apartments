@@ -1,12 +1,22 @@
 $main-color: orangered;
 $transparent-color:  rgb(230, 220, 220);
 
+.main {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 nav {
   background-color: $main-color;
   height: 120px;
 }
 
 .form-title {
+  text-align: center;
+}
+
+.flings {
+  width: 70%;
   text-align: center;
 }
 
@@ -19,6 +29,14 @@ form {
 
 .form-class {
   text-align: center;
+}
+
+.light-r {
+  position: absolute;
+}
+
+.light_back {
+  width: 75%;
 }
 
 .main-form {
@@ -38,13 +56,13 @@ form {
   .result-search {
     background-color: blue;
     height: 25px;
-    margin-top: 32px;
+    margin-top: 10px;
   }
 
   .result-clear {
     background-color: orange;
     height: 25px;
-    margin-top: 32px;
+    margin-top: 10px;
   }
 }
 
@@ -55,6 +73,10 @@ form {
 @media only screen and (min-width: 768px) {
   .tab-bar {
     margin-left: 25%;
+  }
+
+  .light_back {
+    width: 30%;
   }
 
   nav {
@@ -75,6 +97,19 @@ form {
       width: 20%;
       background-color: rgb(47, 188, 235);
     }
+
+    .result-search {
+      margin-top: 32px;
+    }
+
+    .result-clear {
+      margin-top: 32px;
+    }
+  }
+
+  .flings {
+    width: 45%;
+    text-align: center;
   }
 }
 
@@ -89,7 +124,7 @@ form {
   }
 
   .search_but {
-    background-image: $main-color;
+    background-color: $main-color;
   }
 
   .steps {
@@ -123,10 +158,15 @@ form {
     width: 30%;
     margin-left: 15%;
   }
+}
 
-  .flings {
-    width: 30%;
-  }
+.flingstone_details {
+  box-shadow: 3px 1px 3px 1px rgb(250, 235, 235);
+}
+
+.click {
+  background-color: $transparent-color;
+  height: 70px;
 }
 
 .works_but {
@@ -142,6 +182,20 @@ form {
 .steps-title {
   text-align: center;
   color: $main-color;
+}
+
+.app_fling {
+  color: $main-color;
+}
+
+.apply_but {
+  background-color: blue;
+  float: right;
+  clear: both;
+}
+
+.cont {
+  color: blue;
 }
 
 .steps {
@@ -215,4 +269,9 @@ footer {
   .foot-par {
     font-size: 10px;
   }
+}
+
+.map {
+  margin-left: 30%;
+  margin-right: 30%;
 }
