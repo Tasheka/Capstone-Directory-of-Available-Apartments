@@ -7,11 +7,14 @@ nav {
 }
 form {
   background: #e6dcdc;
-  border-radius: 5%
+  border-radius: 10%;
+  margin-right: 4%;
+  margin-left: 4%
 }
 .main-form {
   padding-top: 100px;
-  background-color: pink
+  background-image: url(../assests/apartment.jpg);
+  background-size: cover
 }
 .main-form .search_txt {
   height: 40px
@@ -21,20 +24,63 @@ form {
   height: 40px
 }
 @media only screen and (min-width:768px) {
-  .main-form form {
-    margin-right: 30%;
-    margin-left: 30%
+  .tab-bar {
+    margin-left: 25%
   }
-  .main-form form .search_txt {
+  nav {
+    height: 60px
+  }
+  .main-form form {
+    margin-right: 15%;
+    margin-left: 15%
+  }
+  .main-form .search_txt {
     width: 80%
   }
-  .main-form form .search_but {
+  .main-form .search_but {
     width: 20%;
     background-color: #2fbceb
   }
 }
+@media only screen and (min-width:992px) {
+  form {
+    margin-right: 15%;
+    margin-left: 15%
+  }
+  .tab-bar {
+    margin-left: 18%
+  }
+  .search_but {
+    background-image: #ff4500
+  }
+  .steps {
+    margin-left: 15%
+  }
+  .steps1 {
+    width: 30%
+  }
+  .steps-apply,
+  .steps-search {
+    margin-right: 10%
+  }
+  .app_search_img {
+    float: right;
+    clear: both;
+    margin-right: 10%
+  }
+  .ap {
+    height: 250px
+  }
+  .sec-text {
+    padding-top: 5%;
+    width: 30%;
+    margin-left: 15%
+  }
+}
 .works_but {
-  background-color: #e6dcdc
+  background-color: #e6dcdc;
+  margin-left: 45%;
+  margin-right: 45%
 }
 .how_but {
   text-align: center
@@ -47,21 +93,27 @@ form {
   text-align: center
 }
 .ap_search {
-  background-color: #ff0;
+  background-color: #f08080;
   text-align: center
 }
 .ap_search .app_search_img {
   border-radius: 50%
 }
 .ap_around {
-  background-color: #00f;
+  background-color: #bebeec;
   text-align: center
 }
 .ap_around .app_search_img {
   border-radius: 50%
 }
+.around_but {
+  color: #bebeec
+}
+.ap_search_but {
+  color: #f08080
+}
 .ap_convenient {
-  background-color: green;
+  background-color: #b1afaf;
   text-align: center
 }
 .ap_convenient .app_search_img {

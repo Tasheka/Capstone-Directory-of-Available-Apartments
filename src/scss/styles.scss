@@ -12,12 +12,15 @@ nav {
 
 form {
   background: $transparent-color;
-  border-radius: 5%;
+  border-radius: 10%;
+  margin-right: 4%;
+  margin-left: 4%;
 }
 
 .main-form {
   padding-top: 100px;
-  background-color: pink;
+  background-image: url(../assests/apartment.jpg);
+  background-size: cover;
 
   .search_txt {
     height: 40px;
@@ -30,25 +33,82 @@ form {
 }
 
 @media only screen and (min-width: 768px) {
+  .tab-bar {
+    margin-left: 25%;
+  }
+
+  nav {
+    height: 60px;
+  }
+
   .main-form {
     form {
-      margin-right: 30%;
-      margin-left: 30%;
-
-      .search_txt {
-        width: 80%;
-      }
-
-      .search_but {
-        width: 20%;
-        background-color: rgb(47, 188, 235);
-      }
+      margin-right: 15%;
+      margin-left: 15%;
     }
+
+    .search_txt {
+      width: 80%;
+    }
+
+    .search_but {
+      width: 20%;
+      background-color: rgb(47, 188, 235);
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  form {
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+
+  .tab-bar {
+    margin-left: 18%;
+  }
+
+  .search_but {
+    background-image: $main-color;
+  }
+
+  .steps {
+    margin-left: 15%;
+  }
+
+  .steps1 {
+    width: 30%;
+  }
+
+  .steps-search {
+    margin-right: 10%;
+  }
+
+  .steps-apply {
+    margin-right: 10%;
+  }
+
+  .app_search_img {
+    float: right;
+    clear: both;
+    margin-right: 10%;
+  }
+
+  .ap {
+    height: 250px;
+  }
+
+  .sec-text {
+    padding-top: 5%;
+    width: 30%;
+    margin-left: 15%;
   }
 }
 
 .works_but {
   background-color: $transparent-color;
+  margin-left: 45%;
+  margin-right: 45%;
 }
 
 .how_but {
@@ -65,7 +125,7 @@ form {
 }
 
 .ap_search {
-  background-color: yellow;
+  background-color: lightcoral;
   text-align: center;
 
   .app_search_img {
@@ -74,7 +134,7 @@ form {
 }
 
 .ap_around {
-  background-color: blue;
+  background-color: rgb(190, 190, 236);
   text-align: center;
 
   .app_search_img {
@@ -82,8 +142,16 @@ form {
   }
 }
 
+.around_but {
+  color: rgb(190, 190, 236);
+}
+
+.ap_search_but {
+  color: lightcoral;
+}
+
 .ap_convenient {
-  background-color: green;
+  background-color: rgb(177, 175, 175);
   text-align: center;
 
   .app_search_img {
