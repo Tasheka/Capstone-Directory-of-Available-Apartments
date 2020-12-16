@@ -170,12 +170,12 @@ form {
 
 .works_but {
   background-color: $transparent-color;
-  margin-left: 45%;
-  margin-right: 45%;
 }
 
 .how_but {
   text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .steps-title {
@@ -269,6 +269,7 @@ footer {
 }
 
 .map {
-  margin-left: 30%;
-  margin-right: 30%;
+  margin: auto;
+  display: block;
+  width: 80%;
 }

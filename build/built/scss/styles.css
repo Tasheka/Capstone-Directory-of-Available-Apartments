@@ -125,12 +125,12 @@ form {
   height: 70px
 }
 .works_but {
-  background-color: #e6dcdc;
-  margin-left: 45%;
-  margin-right: 45%
+  background-color: #e6dcdc
 }
 .how_but {
-  text-align: center
+  text-align: center;
+  margin: auto;
+  display: block
 }
 .steps-title {
   text-align: center;
@@ -190,19 +190,11 @@ footer .foot-2 {
 footer .foot-head {
   font-size: 15px
 }
-footer .foot-text-bar {
-  height: 20%;
-  background-color: #000;
-  border: 1px solid #fff
-}
-footer .foot-but {
-  height: 20%;
-  background-color: gray
-}
 footer .foot-par {
   font-size: 10px
 }
 .map {
-  margin-left: 30%;
-  margin-right: 30%
+  margin: auto;
+  display: block;
+  width: 80%
 }
