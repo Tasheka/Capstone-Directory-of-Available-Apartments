@@ -32,6 +32,14 @@ form {
 
 .light-r {
   position: absolute;
+  width: 40%;
+  padding-top: 10%;
+  text-align: center;
+  padding-left: 15%;
+}
+
+.pink {
+  margin-left: 20%;
 }
 
 .light_back {
@@ -74,8 +82,14 @@ form {
     margin-left: 25%;
   }
 
+  .light-r {
+    width: 25%;
+    padding-top: 6%;
+    padding-left: 0;
+  }
+
   .light_back {
-    width: 30%;
+    width: 90%;
   }
 
   nav {
@@ -104,6 +118,10 @@ form {
     .result-clear {
       margin-top: 32px;
     }
+  }
+
+  .pink {
+    margin-left: 0;
   }
 
   .flings {
