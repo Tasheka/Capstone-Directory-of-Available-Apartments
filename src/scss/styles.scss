@@ -291,3 +291,25 @@ footer {
   display: block;
   width: 80%;
 }
+
+@media only screen and (max-width: 576px) {
+  .dt-nav {
+    display: none;
+  }
+
+  .foot-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact_details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pink {
+    display: flex;
+    flex-direction: column;
+  }
+}
