@@ -169,22 +169,31 @@ form {
   text-align: center
 }
 footer .footer-links {
-  font-size: 10px;
-  margin-right: 10%;
-  margin-left: 10%
+  font-size: 8px;
+  margin-right: 12%;
+  margin-left: 12%;
+  border-bottom: 3px double gray
 }
 footer .foot {
   text-align: center;
   width: 25%
 }
-footer .sub-form {
-  margin-left: 20%
+footer .foot-1 {
+  background-color: #000
+}
+footer .foot-2 {
+  background-color: #242424;
+  font-size: 12px;
+  height: 70px;
+  color: gray
 }
 footer .foot-head {
   font-size: 15px
 }
 footer .foot-text-bar {
-  height: 20%
+  height: 20%;
+  background-color: #000;
+  border: 1px solid #fff
 }
 footer .foot-but {
   height: 20%;

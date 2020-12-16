@@ -226,9 +226,10 @@ form {
 
 footer {
   .footer-links {
-    font-size: 10px;
-    margin-right: 10%;
-    margin-left: 10%;
+    font-size: 8px;
+    margin-right: 12%;
+    margin-left: 12%;
+    border-bottom: double 3px grey;
   }
 
   .foot {
@@ -236,8 +237,15 @@ footer {
     width: 25%;
   }
 
-  .sub-form {
-    margin-left: 20%;
+  .foot-1 {
+    background-color: black;
+  }
+
+  .foot-2 {
+    background-color: rgb(36, 36, 36);
+    font-size: 12px;
+    height: 70px;
+    color: grey;
   }
 
   .foot-head {
@@ -246,6 +254,8 @@ footer {
 
   .foot-text-bar {
     height: 20%;
+    background-color: black;
+    border: solid 1px white;
   }
 
   .foot-but {
