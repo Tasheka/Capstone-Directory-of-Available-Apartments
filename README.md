@@ -15,7 +15,7 @@ This project is responsive and has 3 versions: mobile, tablet and desktop.
 
 ## Live Demo
 
-[Live Demo Link](https://tasheka.github.io/Capstone-Directory-of-Available-Apartments/directory)
+[Live Demo Link](https://tasheka.github.io/Capstone-Directory-of-Available-Apartments/)
 
 ## Authors
 
