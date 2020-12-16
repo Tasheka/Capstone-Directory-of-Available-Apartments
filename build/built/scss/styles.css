@@ -15,7 +15,6 @@ nav {
 }
 form {
   background: #e6dcdc;
-  border-radius: 10%;
   margin-right: 4%;
   margin-left: 4%
 }
@@ -155,15 +154,9 @@ form {
   background-color: #f08080;
   text-align: center
 }
-.ap_search .app_search_img {
-  border-radius: 50%
-}
 .ap_around {
   background-color: #bebeec;
   text-align: center
-}
-.ap_around .app_search_img {
-  border-radius: 50%
 }
 .around_but {
   color: #bebeec
@@ -174,9 +167,6 @@ form {
 .ap_convenient {
   background-color: #b1afaf;
   text-align: center
-}
-.ap_convenient .app_search_img {
-  border-radius: 50%
 }
 footer .footer-links {
   font-size: 10px;

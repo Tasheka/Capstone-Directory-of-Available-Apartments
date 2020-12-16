@@ -22,7 +22,6 @@ nav {
 
 form {
   background: $transparent-color;
-  border-radius: 10%;
   margin-right: 4%;
   margin-left: 4%;
 }
@@ -205,19 +204,11 @@ form {
 .ap_search {
   background-color: lightcoral;
   text-align: center;
-
-  .app_search_img {
-    border-radius: 50%;
-  }
 }
 
 .ap_around {
   background-color: rgb(190, 190, 236);
   text-align: center;
-
-  .app_search_img {
-    border-radius: 50%;
-  }
 }
 
 .around_but {
@@ -231,10 +222,6 @@ form {
 .ap_convenient {
   background-color: rgb(177, 175, 175);
   text-align: center;
-
-  .app_search_img {
-    border-radius: 50%;
-  }
 }
 
 footer {
