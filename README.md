@@ -1,9 +1,9 @@
 # Project Name
 HTML Capstone: Directory of Available Apartments
 
-> Add Description here
+This project is simular in structure to the patashule website. It is a site that allows individuals to search, locate, and apply for apartments.
 
-![screenshot]()
+![screenshot](assests/rental_crop.png)
 
 This project is responsive and has 3 versions: mobile, tablet and desktop.
 
