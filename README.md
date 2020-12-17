@@ -17,6 +17,10 @@ This project is responsive and has 3 versions: mobile, tablet and desktop.
 
 [Live Demo Link](http://raw.githack.com/Tasheka/Capstone-Directory-of-Available-Apartments/directory/index.html)
 
+## Original Design
+
+The original design can be found at https://www.behance.net/gallery/25563385/PatashuleKE. Designed by: Mathew Njuguna and Sam Achola.
+
 ## Authors
 
 👤 Tasheka Hamilton
