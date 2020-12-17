@@ -1,4 +1,4 @@
-$main-color: orangered;
+$main-color: rgb(210, 86, 73);
 $transparent-color:  rgb(230, 220, 220);
 $light-color: lightcoral;
 $middle: center;
@@ -44,13 +44,14 @@ form {
   margin-left: 20%;
 }
 
+
 .light_back {
   width: 75%;
 }
 
 .main-form {
   padding-top: 100px;
-  background-image: url("../assests/apartment.jpg");
+  background-image: url("/assests/apartment.jpg");
   background-size: cover;
 
   .search_txt {
