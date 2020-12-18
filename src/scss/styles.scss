@@ -1,6 +1,6 @@
 $main-color: rgb(210, 86, 73);
 $transparent-color:  rgb(230, 220, 220);
-$light-color: lightcoral;
+$light-color: rgb(226, 127, 101);
 $middle: center;
 
 .main {
@@ -44,7 +44,6 @@ form {
   margin-left: 20%;
 }
 
-
 .light_back {
   width: 75%;
 }
@@ -53,6 +52,7 @@ form {
   padding-top: 100px;
   background-image: url("/assests/apartment.jpg");
   background-size: cover;
+  height: 20%;
 
   .search_txt {
     height: 40px;
@@ -87,12 +87,14 @@ form {
 
   .light-r {
     width: 25%;
-    padding-top: 6%;
+    padding-top: 12%;
     padding-left: 0;
   }
 
   .light_back {
     width: 90%;
+    height: 250px;
+    margin-top: 30px;
   }
 
   nav {
@@ -140,7 +142,7 @@ form {
   }
 
   .tab-bar {
-    margin-left: 18%;
+    margin-left: 13%;
   }
 
   .search_but {
@@ -228,12 +230,12 @@ form {
 }
 
 .ap_around {
-  background-color: rgb(190, 190, 236);
+  background-color: rgb(152, 165, 166);
   text-align: $middle;
 }
 
 .around_but {
-  color: rgb(190, 190, 236);
+  color: rgb(152, 165, 166);
 }
 
 .ap_search_but {
@@ -241,7 +243,7 @@ form {
 }
 
 .ap_convenient {
-  background-color: rgb(177, 175, 175);
+  background-color: rgb(81, 156, 216);
   text-align: $middle;
 }
 

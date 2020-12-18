@@ -37,7 +37,8 @@ form {
 .main-form {
   padding-top: 100px;
   background-image: url(/assests/apartment.jpg);
-  background-size: cover
+  background-size: cover;
+  height: 20%
 }
 .main-form .search_txt {
   height: 40px
@@ -65,11 +66,13 @@ form {
   }
   .light-r {
     width: 25%;
-    padding-top: 6%;
+    padding-top: 12%;
     padding-left: 0
   }
   .light_back {
-    width: 90%
+    width: 90%;
+    height: 250px;
+    margin-top: 30px
   }
   nav {
     height: 60px
@@ -103,7 +106,7 @@ form {
     margin-left: 15%
   }
   .tab-bar {
-    margin-left: 18%
+    margin-left: 13%
   }
   .search_but {
     background-color: #d25649
@@ -166,21 +169,21 @@ form {
   text-align: center
 }
 .ap_search {
-  background-color: #f08080;
+  background-color: #e27f65;
   text-align: center
 }
 .ap_around {
-  background-color: #bebeec;
+  background-color: #98a5a6;
   text-align: center
 }
 .around_but {
-  color: #bebeec
+  color: #98a5a6
 }
 .ap_search_but {
-  color: #f08080
+  color: #e27f65
 }
 .ap_convenient {
-  background-color: #b1afaf;
+  background-color: #519cd8;
   text-align: center
 }
 footer .footer-links {
