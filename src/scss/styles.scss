@@ -28,10 +28,6 @@ form {
   margin-left: 4%;
 }
 
-.form-class {
-  text-align: $middle;
-}
-
 .light-r {
   position: absolute;
   width: 40%;
@@ -46,6 +42,11 @@ form {
 
 .light_back {
   width: 75%;
+}
+
+.foot-txt {
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-form {
@@ -76,8 +77,8 @@ form {
   }
 }
 
-.result {
-  text-align: $middle;
+.new-font {
+  font-size: 13px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -85,10 +86,18 @@ form {
     margin-left: 25%;
   }
 
+  .end-foot {
+    margin-right: 4%;
+  }
+
   .light-r {
     width: 25%;
     padding-top: 12%;
     padding-left: 0;
+  }
+
+  .foot-txt {
+    flex-direction: row;
   }
 
   .light_back {
@@ -116,17 +125,14 @@ form {
       background-color: rgb(47, 188, 235);
     }
 
-    .result-search {
-      margin-top: 32px;
-    }
-
+    .result-search,
     .result-clear {
       margin-top: 32px;
     }
   }
 
   .pink {
-    margin-left: 0;
+    margin-left: 25px;
   }
 
   .flings {
@@ -136,9 +142,8 @@ form {
 }
 
 @media only screen and (min-width: 992px) {
-  form {
-    margin-right: 15%;
-    margin-left: 15%;
+  .steps {
+    padding-left: 25%;
   }
 
   .tab-bar {
@@ -149,18 +154,11 @@ form {
     background-color: $main-color;
   }
 
-  .steps {
-    margin-left: 15%;
-  }
-
   .steps1 {
     width: 30%;
   }
 
-  .steps-search {
-    margin-right: 10%;
-  }
-
+  .steps-search,
   .steps-apply {
     margin-right: 10%;
   }
@@ -220,10 +218,6 @@ form {
   color: blue;
 }
 
-.steps {
-  text-align: $middle;
-}
-
 .ap_search {
   background-color: $light-color;
   text-align: $middle;
@@ -272,7 +266,7 @@ footer {
   }
 
   .foot-head {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .foot-text-bar {
@@ -287,7 +281,7 @@ footer {
   }
 
   .foot-par {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
