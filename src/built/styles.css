@@ -43,6 +43,12 @@ form {
   align-items: center;
 }
 
+.foot-logo {
+  width: 40%;
+  border: white;
+  border-radius: 50%;
+}
+
 .main-form {
   padding-top: 100px;
   background-image: url(./assests/apartment.jpg);

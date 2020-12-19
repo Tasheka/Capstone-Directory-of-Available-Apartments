@@ -18,6 +18,11 @@ nav {
   width: 70%;
   text-align: center
 }
+.foot-logo {
+  font-size: 40px;
+  border: white;
+  border-radius: 50%
+}
 form {
   background:rgb(188,198,207,0.6);
   margin-right: 4%;
