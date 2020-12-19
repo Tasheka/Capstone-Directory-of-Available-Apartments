@@ -12,6 +12,10 @@ nav {
   text-align: center;
 }
 
+.font{
+  font-family: Roboto;
+}
+
 .flings {
   width: 70%;
   text-align: center;
@@ -163,6 +167,8 @@ form {
     float: right;
     clear: both;
     margin-right: 10%;
+    width: 15%;
+    height: 15%;
   }
 
   .ap {

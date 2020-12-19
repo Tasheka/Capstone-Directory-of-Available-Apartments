@@ -9,14 +9,19 @@ nav {
 .form-title {
   text-align: center
 }
+
+.app_search_img {
+  width: 200px;
+  height: 200px
+}
 .flings {
   width: 70%;
   text-align: center
 }
 form {
-  background: #e6dcdc;
+  background:rgb(188,198,207,0.6);
   margin-right: 4%;
-  margin-left: 4%
+  margin-left: 4%; 
 }
 .light-r {
   position: absolute;
@@ -29,6 +34,9 @@ form {
 }
 .light_back {
   width: 75%
+}
+.font{
+  font-family: Roboto
 }
 .foot-txt {
   flex-direction: column;
@@ -113,7 +121,7 @@ form {
   .tab-bar {
     margin-left: 13%
   }
-  .search_but {
+  .main-form .search_but {
     background-color: #d25649
   }
   .steps1 {
@@ -126,7 +134,7 @@ form {
   .app_search_img {
     float: right;
     clear: both;
-    margin-right: 10%
+    margin-right: 10%;
   }
   .ap {
     height: 250px
